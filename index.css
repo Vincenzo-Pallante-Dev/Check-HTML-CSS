@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5fb;
+  border: 2px solid black;
+  height: 80vh;
+  display: flex;
+}
+body aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 100%;
+}
+body aside .first {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20px;
+}
+body aside .first div:first-child {
+  width: 25px;
+  height: 25px;
+  background-color: grey;
+}
+body aside .first div:last-child {
+  height: 25px;
+  width: 100px;
+  background-color: gray;
+}
+body aside ul {
+  flex: 1;
+}
+body aside ul li {
+  margin: 20px;
+  height: 20px;
+  width: 160px;
+  background-color: grey;
+  list-style: none;
+}
+body aside .third {
+  height: 160px;
+  width: 160px;
+  background-color: grey;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+body main {
+  background-color: #c4c4c4;
+  width: 550px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body main .first {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .first div:first-child {
+  height: 30px;
+  width: 300px;
+  background-color: grey;
+}
+body main .first div:last-child {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+}
+body main .second {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+body main .second .a {
+  height: 25px;
+  width: 130px;
+  background-color: grey;
+}
+body main .second ul {
+  display: flex;
+}
+body main .second ul li {
+  list-style: none;
+  height: 25px;
+  width: 60px;
+  background-color: grey;
+  margin-left: 10px;
+}/*# sourceMappingURL=index.css.map */
